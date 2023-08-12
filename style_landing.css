@@ -1,0 +1,11 @@
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.background-photo {
+    max-width: 1024px;
+    height: 800px;
+    background: url(landing-materials/hero.jpg);
+    background-position: center top;
+    background-size: cover;
+}
