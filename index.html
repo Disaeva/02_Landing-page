@@ -18,15 +18,15 @@
 	<body>
         <div class="background-photo"> <!-- блок с девушкой -->
             <div class="content">
-                <header> <!-- почему нельзя здесь задать размер шрифта?-->
+                <header> 
                    <div class="logo"> <!-- нужен ли вообще тут контейнер и почему высота контейнера стала на 3 пикселя больше относительно вложенной картинки? -->
                         <img src="landing-materials/logo.svg" alt="Логотип школы" class="logo-pic"/>
                    </div>
                     <nav class="navigation flex-center"> 
-                        <a href="#price" class="navigation-item"> <!--шрифт съехал, цвет текста для ссылки по умолчанию синий?-->
+                        <a href="#price" class="navigation__item"> <!--шрифт съехал, цвет текста для ссылки по умолчанию синий?-->
                             Стоимость
                         </a>
-                        <a href="#feedback" class="navigation-item">
+                        <a href="#feedback" class="navigation__item">
                             Отзывы
                         </a>
                     </nav>
@@ -35,9 +35,14 @@
                         <p class="phone__item"> +7 (123) 456-78-90</p>
                     </div>
                 </header>
-            </div>
-            
-
+                <div>
+                    <h1 class="background-photo__title"> Лучший способ заговорить на английском</h1>
+                    <p class="background-photo__text"> Занимайся онлайн в удобное время в любом месте! Запишитесь на бесплатный пробный урок уже сегодня. </p>
+                    <button class="background-photo__button"> 
+                        Записаться на пробный урок
+                    </button>
+                </div>
+            </div> 
         </div>
     
     </body>

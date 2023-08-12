@@ -3,11 +3,15 @@
 }
 
 html {
-    font-family: 'Nunito Sans', sans-serif;
     --light-orange: #ffedd5;
     --dark-orange: #f97316;
     --light-gray: #FAFAF9;
     --main-font: #1c1917;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--main-font);
 }
 
 .background-photo {
@@ -25,7 +29,8 @@ html {
 header {
     display: flex;
     justify-content: space-between;
-    color: var(--main-font)
+    font-size: 16px;
+    padding: 10px;
 }
 
 .logo-pic {
@@ -42,15 +47,53 @@ header {
     align-items: center;
 }
 
-.navigation-item {
+.navigation__item {
     padding: 0 10px;
     text-decoration: none;
     color: var(--main-font);
 }
-.navigation-item:hover {
+.navigation__item:hover {
     text-decoration: underline;
 }
 
 .phone__item {
     padding: 0 10px;
+    color: var(--main-font);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    max-width: 50%;
+    padding: 100px 0 50px 0;
+}
+
+.background-photo__text {
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 40%;
+    padding: 0 0 50px 0;
+    line-height: 25px;
+}
+
+.background-photo__button {
+    background-color: var(--dark-orange);
+    color: #FAFAF9;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 7px;
+    box-shadow: 4px 4px 6px #d6d3d1;
+    padding: 20px 30px;
+    border: none;
+}
+.background-photo__button:hover {
+    background-color: var(--dark-orange);
+    color: #FAFAF9;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 7px;
+    box-shadow: 4px 4px 6px #d6d3d1;
+    padding: 20px 30px;
+    border: solid var(--light-orange);
 }
