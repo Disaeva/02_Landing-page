@@ -1,11 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
 html {
     font-family: 'Nunito Sans', sans-serif;
+    --light-orange: #ffedd5;
+    --dark-orange: #f97316;
+    --light-gray: #FAFAF9;
+    --main-font: #1c1917;
 }
 
 .background-photo {
-    max-width: 1024px;
     height: 800px;
     background: url(landing-materials/hero.jpg);
     background-position: center top;
     background-size: cover;
+}
+
+.content {
+    max-width: 1024px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-font)
+}
+
+.logo-pic {
+    height: 100px;
+    width: 100px;;
+    object-fit: fill;
+    object-position: center;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-item {
+    padding: 0 10px;
+    text-decoration: none;
+    color: var(--main-font);
+}
+.navigation-item:hover {
+    text-decoration: underline;
+}
+
+.phone__item {
+    padding: 0 10px;
 }
