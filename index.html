@@ -1,93 +1,258 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="utf-8" />
-  		<title>Landing page</title>
 
-        <link rel="stylesheet" type="text/css" href="reset.css"/>
-        <link rel="stylesheet" type="text/css" href="style_landing.css" />
+<head>
+    <meta charset="utf-8" />
+    <title>Landing page</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,700;1,6..12,200;1,6..12,400;1,6..12,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style_landing.css" />
 
-        <script src="https://kit.fontawesome.com/1dcc411354.js" crossorigin="anonymous"></script>
-	</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,700;1,6..12,200;1,6..12,400;1,6..12,700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1dcc411354.js" crossorigin="anonymous"></script>
+</head>
 
 
-	<body>
-        <div class="background-photo"> <!-- блок с девушкой -->
-            <div class="content">
-                <header> 
-                   <div class="logo"> <!-- нужен ли вообще тут контейнер и почему высота контейнера стала на 3 пикселя больше относительно вложенной картинки? -->
-                        <img src="landing-materials/logo.svg" alt="Логотип школы" class="logo-pic"/>
-                   </div>
-                    <nav class="navigation flex-center"> 
-                        <a href="#price" class="navigation__item"> <!--шрифт съехал, цвет текста для ссылки по умолчанию синий?-->
-                            Стоимость
-                        </a>
-                        <a href="#feedback" class="navigation__item">
-                            Отзывы
-                        </a>
-                    </nav>
-                    <div class="phone flex-center">
-                        <i class="fa-solid fa-phone"></i>
-                        <p class="phone__item"> +7 (123) 456-78-90</p>
-                    </div>
-                </header>
-                <div>
-                    <h1 class="background-photo__title"> Лучший способ заговорить на английском</h1>
-                    <p class="background-photo__text"> Занимайся онлайн в удобное время в любом месте! Запишитесь на бесплатный пробный урок уже сегодня. </p>
-                    <button class="background-photo__button"> 
-                        Записаться на пробный урок
-                    </button>
+<body>
+    <div class="background-photo"> <!-- блок с девушкой -->
+        <div class="content">
+            <header>
+                <div class="logo">
+                    <!-- нужен ли вообще тут контейнер и почему высота контейнера стала на 3 пикселя больше относительно вложенной картинки? -->
+                    <img src="landing-materials/logo.svg" alt="Логотип школы" class="logo-pic" />
                 </div>
-            </div> 
+                <nav class="navigation flex-center">
+                    <a href="#price" class="navigation__item">
+                        Стоимость
+                    </a>
+                    <a href="#feedback" class="navigation__item">
+                        Отзывы
+                    </a>
+                </nav>
+                <div class="phone flex-center">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="phone__item"> +7 (123) 456-78-90</p>
+                </div>
+            </header>
+            <div class="">
+                <h1 class="background-photo__title"> Лучший способ заговорить на английском</h1>
+                <p class="background-photo__text"> Занимайся онлайн в удобное время в любом месте! Запишитесь на
+                    бесплатный пробный урок уже сегодня. </p>
+                <button class="background-photo__button">
+                    Записаться на пробный урок
+                </button>
+            </div>
         </div>
-        <main class="section"> <!--главная секция с 4мя подсекциями-->
-            <section class="section"> <!--уникальность-->
-                <div class="content">
-                    <h2> Начните разговаривать с первого занятия</h2>
-                    <div class="features">
-                        <div class="features__item">
-                            <div class="features__icon"> 
-                                <i class="fa-regular fa-comment-dots fa-lg"></i>
-                            </div>
-                            <p class="features__title">Разговорная речь</p>
-                            <p class="features__text">Никаких грамматических заданий по учебнику! Изучайте язык в живой речи.</p>
+    </div>
+    <main class="section"> <!--главная секция с 4мя подсекциями-->
+        <section class="section"> <!--уникальность-->
+            <div class="content">
+                <h2> Начните разговаривать с первого занятия</h2>
+                <div class="features">
+                    <div class="features__item">
+                        <div class="features__icon">
+                            <i class="fa-regular fa-comment-dots fa-lg"></i>
                         </div>
-                        <div class="features__item">
-                            <div class="features__icon"> 
-                                <i class="fa-solid fa-check fa-lg"></i>
-                            </div>
-                            <p class="features__title">Современный язык</p>
-                            <p class="features__text">Изучайте актуальный язык, общаясь с преподавателем на современные темы</p>
+                        <p class="features__title">Разговорная речь</p>
+                        <p class="features__text">Никаких грамматических заданий по учебнику! Изучайте язык в живой
+                            речи.</p>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__icon">
+                            <i class="fa-solid fa-check fa-lg"></i>
                         </div>
-                        <div class="features__item">
-                            <div class="features__icon"> 
-                                <i class="fa-regular fa-user fa-lg"></i>
-                            </div>
-                            <p class="features__title">Индивидуальные занятия</p>
-                            <p class="features__text">Преподаватель занимается только с Вами и Вы учитесь намного быстрее.</p>
-                            
+                        <p class="features__title">Современный язык</p>
+                        <p class="features__text">Изучайте актуальный язык, общаясь с преподавателем на современные темы
+                        </p>
+                    </div>
+                    <div class="features__item">
+                        <div class="features__icon">
+                            <i class="fa-regular fa-user fa-lg"></i>
                         </div>
+                        <p class="features__title">Индивидуальные занятия</p>
+                        <p class="features__text">Преподаватель занимается только с Вами и Вы учитесь намного быстрее.
+                        </p>
+
                     </div>
                 </div>
-            </section>
+            </div>
+            <div class="content">
+                <div class="features">
+                    <div class="features__about-us">
+                        <h3>
+                            Мы научим говорить уверенно!
+                        </h3>
+                        <p class="features__text">
+                            Мы считаем, что главная задача языка - помочь нам общаться друг с другом. Поэтому на наших
+                            занятиях мы отдаем приоретет разговорной речи и навыкам аудирования.
+                        </p>
+                        <p class="features__text">
+                            Мы не изучаем грамматические правила по учебнику, мы не выполняем задания, где нужно
+                            раскрыть скобки или поставить правильный артикль, мы занимаем самым главным - разговариваем.
+                            Мы разговариваем на самые актуальные и интересные темы, чтобы вы могли пополнить свой
+                            словарным запас актуальными современными словами.
+                        </p>
+                    </div>
+                    <img class="features__image" src="landing-materials/group-people.jpg" />
+                </div>
+            </div>
+        </section>
 
-            <section class="section section_orange"> <!--форма записи-->
+        <section class="section section_orange"> <!--форма записи-->
+            <div class="content form">
+                <h2>Запишитесь на бесплатный урок уже сегодня</h2>
+                <p class="form__text">Преподаватель определит ваш уровень и Вы пройдете полноценный первый урок</p>
+                <form class="flex-center" action="/landing-materials/form-submit.html">
+                    <input class="form__input" type="text" placeholder="Ваше имя">
+                    <input class="form__input" type="tel" placeholder="Номер телефона">
+                    <button class="background-photo__button"> Записаться на пробный урок</button>
+                </form>
+            </div>
+        </section>
 
-            </section>
+        <section class="section section_gray" id="#feedback"> <!--отзывы-->
+            <div class="content">
+                <h2>У нас уже более 500 довольных учеников!</h2>
+                <div class="feedback">
+                    <div class="feedback__item">
+                        <p class="feedback__text_bold">Ольга Морозова</p>
+                        <p class="feedback__text">Спасибо огромное преподавателю Марине. Я занимаюсь уже 6 месяцев и это лучшая школа иностранного языка, в которой я училась.</p>
+                    </div>
+                    <div class="feedback__item">
+                        <p class="feedback__text_bold">Андрей Иванов</p>
+                        <p class="feedback__text">Я учил английский 10 лет с 5 класса, но так и не мог уверенно разговаривать даже на бытовые темы. Я начал учиться в вашей школе всего 4 месяца назад и сейчас я вернулся из путешествия, в котором уверенно мог общаться с таксистами, официантами и гидами. Теперь мне нестрашно путешествовать!</p>      
+                    </div>
+                    <div class="feedback__item">
+                        <p class="feedback__text_bold">Настя Петрова</p>
+                        <p class="feedback__text">Мне очень нравится методика преподавания, на уроках мы очень много общаемся и не выполняем скучных заданий из учебников. Благодаря занятиям мой язык стал более живой, современный, я узнала про сленг, а на прошлой неделе познакомилась с иностранцем!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section class="section section_gray" id="#feedback"> <!--отзывы-->
+        <section class="section" id="#price"> <!--цены-->
+            <div class="content">
+                <h2>Наши абонементы</h2>
+                <div class="price__block">
+                    <div class="price__item">
+                        <p class="price_title">1 месяц</p>
+                        <p class="price_rate">12 000 руб / 8 уроков</p>
+                        <div class="price__item_inner">
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>8 уроков</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>занятия 2 раза в неделю</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>индивидуальные уроки</p>
+                            </div>
+                        </div>
+                        <button class="price__button">Записаться</button>
+                    </div>
+                    <div class="price__item">
+                        <p class="price_title">3 месяца</p>
+                        <p class="price_rate">32 000 руб / 24 урока</p>
+                        <div class="price__item_inner">
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>8 уроков</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>занятия 2 раза в неделю</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>индивидуальные уроки</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>бесплатный разговорный клуб</p>
+                            </div>
+                        </div>
+                        <button class="price__button">Записаться</button>
+                    </div>
+                    <div class="price__item">
+                        <p class="price_title">6 месяцев</p>
+                        <p class="price_rate">55 000 руб / 58 уроков</p>
+                        <div class="price__item_inner">
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>8 уроков</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>занятия 2 раза в неделю</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>индивидуальные уроки</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>бесплатный разговорный клуб</p>
+                            </div>
+                            <div class="price__item_details">
+                                <div class="check-box">
+                                    <i class="fa-solid fa-check fa-lg"></i>
+                                </div>
+                                <p>бесплатная заморозка абонемента</p>
+                            </div>
+                        </div>
+                        <button class="price__button">Записаться</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            </section>
+    </main>
+    <footer class="section section_gray"> <!--футер-->
+        <div class="content flex-center">
+            <div class="footer-item">
+                <i class="fa-solid fa-phone"></i>
+                <p class="phone__item"> +7 (123) 456-78-90</p>
+            </div>
+            <div class="footer-item">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+                <i class="fa-brands fa-square-facebook fa-lg"></i>
+                <i class="fa-brands fa-square-x-twitter fa-lg"></i>
+            </div>
+            <div class="footer-item">
+                <p class="phone__item">english_house@email.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
 
-            <section class="section" id="#price"> <!--цены-->
-
-            </section>
-
-        </main>
-    
-    </body>
 </html>
