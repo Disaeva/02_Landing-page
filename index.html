@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
     <title>Landing page</title>
 
     <link rel="stylesheet" type="text/css" href="reset.css" />
@@ -22,24 +24,24 @@
     <div class="background-photo"> <!-- блок с девушкой -->
         <div class="content">
             <header>
-                <div class="logo">
+                <div class="logo header-item">
                     <!-- нужен ли вообще тут контейнер и почему высота контейнера стала на 3 пикселя больше относительно вложенной картинки? -->
                     <img src="landing-materials/logo.svg" alt="Логотип школы" class="logo-pic" />
                 </div>
-                <nav class="navigation flex-center">
-                    <a href="#price" class="navigation__item">
+                <nav class="navigation flex-center header-item">
+                    <a href="#price" class="navigation__item"> <!--Почему не работают ссылки и нет подчеркивания? -->
                         Стоимость
                     </a>
                     <a href="#feedback" class="navigation__item">
                         Отзывы
                     </a>
                 </nav>
-                <div class="phone flex-center">
+                <div class="phone flex-center header-item">
                     <i class="fa-solid fa-phone"></i>
-                    <p class="phone__item"> +7 (123) 456-78-90</p>
+                    <p class="phone__item"> +7 (123) 456-78-90</p> <!--как выровнять телефон по левому краю на 600px-->
                 </div>
             </header>
-            <div class="">
+            <div class="background">
                 <h1 class="background-photo__title"> Лучший способ заговорить на английском</h1>
                 <p class="background-photo__text"> Занимайся онлайн в удобное время в любом месте! Запишитесь на
                     бесплатный пробный урок уже сегодня. </p>
@@ -238,7 +240,7 @@
 
     </main>
     <footer class="section section_gray"> <!--футер-->
-        <div class="content flex-center">
+        <div class="content footer flex-center">
             <div class="footer-item">
                 <i class="fa-solid fa-phone"></i>
                 <p class="phone__item"> +7 (123) 456-78-90</p>
